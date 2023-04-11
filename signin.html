@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Signup</title>
     <link rel="stylesheet" href="signin.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="container">
-        <div class="card">
-         <button class="button">sign in</button>
-        </div>
+  </head>
+  <body>
+    <div class="signup">
+      <p>first name</p>
+      <input type="text" id="firstname" />
+      <p>last name</p>
+      <input type="text" id="lastname" />
+      <p>email</p>
+      <input type="email" id="email" />
+      <p>pass 1</p>
+      <input type="text" id="passOne" />
+      <p>pass 2</p>
+      <input type="text" id="passTwo" />
+      <p>secret question</p>
+      <input type="text" id="secretQuestion" />
+      <p>secret answer</p>
+      <input type="text" id="secretAnswer" />
+      <button onclick="Signup()">done</button>
     </div>
-</body>
+    <hr />
+    <div class="signin">
+      <p>your email</p>
+      <input type="email" id="signinEmail" />
+      <p>your pass</p>
+      <input type="password" id="singinPass" />
+      <button onclick="signin()">signin/button>
+      <hr />
+      <p>your account email?</p>
+      <input type="email" id="forgotEmail" />
+      <button onclick="Forgot()">forgot password?</button>
+      <p>Your secret Question is:</p>
+      <p id="secQ"></p>
+      <input type="text" id="secAns" />
+      <button onclick="Check()">check</button>
+      <p>YOUR PASS WAS:</p>
+      <p id="pas"></p>
+    </div>
+    <script src="signup.js"></script>
+  </body>
 </html>
