@@ -1,4 +1,5 @@
-#products{
+
+*#products{
     width: 100%;
     background-color: pink;
     display: flex;
@@ -6,6 +7,11 @@
     align-items: center;
 
 }
+body {
+    background-image: url("https://rare-gallery.com/uploads/posts/572187-candy-4k-free.jpg");
+    
+    background-color: #cccccc;
+   }
 .product{
     width:200px;
     height: 300px;

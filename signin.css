@@ -15,6 +15,7 @@
     height: 400px;
     background-color: rgb(214, 198, 178);
     display: flex;
+    justify-content: center;
 }
 .button{
     width: 100%;
