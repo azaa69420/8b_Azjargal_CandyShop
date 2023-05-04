@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 *#products{
     width: 100%;
     background-color: pink;
@@ -20,6 +23,7 @@ body {
 .productImage{
 width: 100px;
 height: auto;
+
 }
 .title{
     color: green;

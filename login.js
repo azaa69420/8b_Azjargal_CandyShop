@@ -1,17 +1,17 @@
 const UsersData = [
     {
-      fname: "Bayalagmaa",
-      lname: "Bayarmaa",
-      email: "bayalagmaa@nhs.edu.mn",
-      password: "Nest12345678",
+      fname: "Azaa",
+      lname: "azaa",
+      email: "azaashii1120@gmail.com",
+      password: "12345678",
       secretQ: "fav color?",
       secretAns: "purple",
     },
     {
       fname: "nest",
       lname: "nestee",
-      email: "nest@gmail.com",
-      password: "Nest12345678",
+      email: "azaashii1120@gmail.com",
+      password: "12345678",
       secretQ: "name?",
       secretAns: "nest",
     },

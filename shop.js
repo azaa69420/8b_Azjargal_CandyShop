@@ -1,15 +1,15 @@
 const products = [
     {
-      name: "candyOne",
-      price: 1000,
+      name: "snickers",
+      price: 3200,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://www.snickers.com/sites/g/files/fnmzdf616/files/migrate-product-files/dryeqrv2efldaaoyceat.png",
     },
     {
-      name: "candyTwo",
-      price: 1200,
+      name: "twix",
+      price: 3500,
       description: "Candy",
       type: "gummy",
       image:
