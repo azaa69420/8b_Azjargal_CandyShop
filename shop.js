@@ -13,31 +13,31 @@ const products = [
       description: "Candy",
       type: "gummy",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://cdn.shopify.com/s/files/1/0015/0611/5642/products/twix_50g_single_1024x.jpg?v=1569463380",
     },
     {
-      name: "candyThree",
+      name: "kitkat",
       price: 2300,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://p7.hiclipart.com/preview/175/135/581/chocolate-bar-kit-kat-milk-white-chocolate-milk-thumbnail.jpg",
     },
     {
-      name: "candyFour",
-      price: 550,
+      name: "haribo",
+      price: 5000,
       description: "Candy",
       type: "gummy",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://cdn.imgbin.com/9/2/12/imgbin-gummi-candy-gummy-bear-cola-red-fox-haribo-candy-CAR2cFEvArcNdLbK5KGPBRs8y.jpg",
     },
     {
-      name: "candyFive",
-      price: 3200,
+      name: "skittles",
+      price: 4200,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+        "https://www.skittles.com/cdn-cgi/image/width=472,height=472,f=auto,quality=90/sites/g/files/fnmzdf586/files/migrate-product-files/bam8afcev37jvz2mfpnk.png",
     },
   ];
   
