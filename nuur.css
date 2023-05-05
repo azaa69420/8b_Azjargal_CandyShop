@@ -10,6 +10,7 @@ h1{
     height: 100vh;
     background-image: url("https://wallpaperaccess.com/full/3378467.jpg");
     background-repeat: no-repeat;
+    background-color: blue;
     
 }
 button{
@@ -46,4 +47,14 @@ button{
 }
 .right h1:hover{
     border-bottom: 1px solid white;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    
 }
