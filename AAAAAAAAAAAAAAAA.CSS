@@ -67,13 +67,18 @@ hr {
   justify-content: center;
 }
 .clothes{
-  width: 73vw;
+  width: 75vw;
   height: 40vh;
   background-image: url("https://images.theconversation.com/files/293774/original/file-20190924-54793-157i3zo.jpg?ixlib=rb-1.1.0&rect=0%2C215%2C4971%2C2485&q=45&auto=format&w=1356&h=668&fit=crop");
-  border-radius: 15px;
+  border-radius: 19px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.as{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .aza{
@@ -81,10 +86,14 @@ hr {
   height: 24vh;
   background-color: blue;
 }
+.azaa{
+  width: 80vw;
+  height: 7vh;
+  background-color: red;
+}
 .zurgiin-parent{
   width:100%;
   height:80%;
-  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: center;
