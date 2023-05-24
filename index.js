@@ -52,6 +52,7 @@ const UsersData = [
       secretAns: secA,
     };
     UsersData.push(newUser);
+    window.location.replace("./lol.html")
   }
   
   function Login() {
